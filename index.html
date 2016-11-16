@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pong app</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            html{
+                min-width:320px;
+            }
+            body{
+                width:100vw;
+                height: 100vh;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                background-color:#eee;
+                overflow: hidden;
+                
+            }
+            .canvas-wrapper{
+                width:80vw;
+                height: 80vh;
+                background-color:black;
+                border-radius:2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="canvas-wrapper">
+            <canvas id="pong-game"></canvas>
+        </div>
+
+        <script src="./dist/script/app.js"></script>
+    </body>
+</html>
